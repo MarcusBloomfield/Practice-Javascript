@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    background-color: black;
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.app {
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.practice-container {
+
+    border: solid 2px white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+
+    gap: 2rem;
+
+    padding: 2rem;
+
+}
+
+.question-container {
+
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+
+    padding: 2rem;
+
+    width: 90%;
+}
+
+.question-container textarea {
+
+    width: 90%;
+    height: 90%;
+    flex-grow: 1;
+    padding: 1rem;
+
+    text-overflow: wrap;
+
+}
+
+.practice-container button {
+    border: solid white 2px;
+    min-height: 50px;
+    min-width: 100px;
+}
+
+.practice-container button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.practice-question {
+    display: flex;
+
+
+    width: 50%;
+    height: 90%;
+    border: solid 2px white;
+    padding: 1rem;
+
+    text-overflow: wrap;
+}
+
+.question-response {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding:1rem;
+}
+
+.question-response div{
+   display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1rem;
+    padding:1rem;
+}
