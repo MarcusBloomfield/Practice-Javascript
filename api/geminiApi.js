@@ -1,4 +1,4 @@
-import apiKey from "../.env"
+import apiKey from "../env.js"
 
 export async function ask(query) {
 
@@ -8,6 +8,7 @@ console.log("query is null")
         return
     }
 
+    console.log("sending query to gemini api")
     try {
         const response = await askGemini(query)
         console.log(response.text);
